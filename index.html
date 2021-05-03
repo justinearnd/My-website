@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Workshop</title>
+  </head>
+  <body>
+    <h1 id="welcome-title">My Cocktail Website</h1>
+    <section class="introduction">
+      <h2>About me</h2>
+      <div class="introduction-container">
+        <div class="img-introduction-container">
+          <img
+            src="https://images.unsplash.com/photo-1544145945-2f7fe42b979e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+            alt="introduction picture"
+          />
+        </div>
+        <p class="about-me">
+          Hello, i am a former bartender. I want to share with you my passion
+          for cocktails.
+        </p>
+      </div>
+    </section>
+    <section class="cocktail">
+      <h2>Mojito</h2>
+      <div class="cocktail-container">
+        <div class="cocktail-img-container">
+          <img
+            src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1834&q=80"
+            alt="mojito"
+          />
+        </div>
+
+        <ul>
+          <li>2 parts Bacardi Carta Blanca</li>
+          <li>½ fresh lime</li>
+          <li>12 fresh mint leaves</li>
+          <li>2 heaped bar spoons of caster sugar</li>
+          <li>Dash of soda water</li>
+          <li>Cubed ice</li>
+          <li>Crushed ice</li>
+          <li>To Garnish: Sprig of Fresh Mint</li>
+        </ul>
+      </div>
+      <ol>
+        <li>
+          Put the four lime wedges into a glass, then add the sugar and muddle
+          (squish everything together) to release the lime juice
+        </li>
+        <li>
+          Put the mint leaves on one hand and clap. This bruises the leaves and
+          releases the aroma. Rub the mint leaves around the rim of the glass
+          and drop them in. Use a muddler, bar spoon (or even a rolling pin) to
+          gently push the mint down into the lime juice
+        </li>
+        <li>
+          Half fill the glass with crushed ice and pour in the Bacardi Carta
+          Blanca. Stir the mix together until the sugar dissolves
+        </li>
+        <li>
+          Top up with crushed ice, a splash of the soda water and garnish it
+          with a sprig of mint
+        </li>
+      </ol>
+      <h2>Cocktails of the month</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Months</th>
+            <th>Cocktails</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>January</td>
+            <td>Mojito</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>Cosmopolitan</td>
+          </tr>
+          <tr>
+            <td>March</td>
+            <td>Pina Colada</td>
+          </tr>
+          <tr>
+            <td>April</td>
+            <td>Moscow Mule</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="contact">
+      <h2>Share your favorite recipe!</h2>
+      <form class="recipe-form">
+        <label for="recipe-name">Recipe name:</label>
+        <input type="text" name="recipe-name" id="recipe-name"></input>
+        <label for="recipe-description">Ingredients and instructions:</label>
+        <textarea name="recipe-description" id="recipe-description" cols="30" rows="10"></textarea>
+        <input type="button" value="Submit" id="submit" />
+      </form>
+    </section>
+  </body>
+</html>
